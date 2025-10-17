@@ -1,5 +1,31 @@
 streamlit
 pandas
 numpy
-plotly
 scipy
+plotly
+```
+
+4. Commit: `Add missing plotly and scipy`
+
+---
+
+## ⏳ **Espera 3-4 minutos**
+
+Streamlit Cloud va a:
+1. ✅ Detectar los cambios
+2. ✅ Reinstalar todo
+3. ✅ Reiniciar la app
+
+---
+
+## 🔍 **Verificar que funcione:**
+
+Después de 3-4 minutos:
+
+1. Ve a tu app
+2. Click en "Manage app" → "Logs"
+3. Deberías ver:
+```
+✅ Installed plotly
+✅ Installed scipy
+✅ App is running
