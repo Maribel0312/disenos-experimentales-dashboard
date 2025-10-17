@@ -1,0 +1,33 @@
+[theme]
+primaryColor = "#3b82f6"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f1f5f9"
+textColor = "#1e293b"
+font = "sans serif"
+
+[server]
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = true
+```
+
+3. **Guardar como:**
+   - **Nombre:** `config.toml`
+   - **Tipo:** "Todos los archivos (*.*)"
+   - **Guardar en:** La carpeta `.streamlit`
+
+---
+
+## ✅ **1.4 VERIFICACIÓN FINAL**
+
+Abre tu carpeta `disenos-experimentales-dashboard` y verifica que tengas exactamente esto:
+```
+📁 disenos-experimentales-dashboard/
+├── 📁 .streamlit/
+│   └── 📄 config.toml
+├── 📄 app.py
+├── 📄 requirements.txt
+├── 📄 README.md
+├── 📄 .gitignore
+└── 📄 LICENSE
